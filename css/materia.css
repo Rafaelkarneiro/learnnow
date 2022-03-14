@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.disciplina{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 28%;
+    height: 500px;
+    width: 685px;
+    border: 1px solid;
+    border-radius: 0px;
+    border-left: rgb(57, 150, 212) 10px solid;
+
+}
+
+.p1{
+    margin-top: 50px;
+    margin-left: 20%;
+    color: rgb(57, 150, 212);
+    font-size: 40pt;
+}
+
+.materia{
+ position: relative;
+ margin-top: 50px;
+ left: 23%;
+}
+
+input{
+    border-radius: 7px;
+}
+
+.materia input[type="text"]{
+    margin-top: 20px;
+    text-align: left;
+    height: 20px;
+    width: 350px;
+    background: rgba(133, 131, 131, 0.411);
+    outline: none;
+    border: 1px solid;
+    outline: none;
+}
+.materia input[type="text"]:hover{
+    border-color: rgba(82, 158, 245, 0.479);
+    box-shadow: rgba(82, 158, 245, 0.479) 0px 0px 10px 4px;
+   
+}
+
+.materia input[name="personalizado"]{
+    width: 100px;
+}
+.materia input[name="personalizado"]:focus{
+    width: 183px;
+    transition: 0.6s;
+}
+
+.btn{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 30pt;
+    background-color:  rgb(44, 158, 53);
+    color: white;
+    border: black 1px solid;
+}
+.btn:hover{
+   background-color: rgb(7, 172, 15);
+   transition: 0.6s;
+   cursor: pointer;
+   outline: none;
+}

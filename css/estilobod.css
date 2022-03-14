@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+    /*background-image: url("../IMAGENS/fundopc.svg");*/
+   
+}
+
+img{
+    margin-top: 100px;
+}
+
+header img{
+    position:fixed;
+    left:45px;
+    height: 45px;
+    margin-top: 3px; 
+}
+
+
+h3{
+    position: fixed;
+    top: 20px;
+    left: 105px;
+    color: #fffe;
+    
+
+}
+/*Arrumar dia 13/10*/
+header {
+    z-index: 9;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    background: #3D9ACE;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.233);
+
+    width: 100%;
+ 
+}
+
+header ul li{
+    margin-top: 10px;
+    display: inline-block;   
+    margin-right: 15px;
+}
+
+
+header input[type="text"]{
+    margin-right: 10px;
+    border: rgba(80, 80, 80, 0.933) 1px solid;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    background:rgba(249, 250, 249, 0.933);
+  
+    text-align: center;
+    outline: none;
+}
+
+header input[type="password"]{
+    margin-right: 10px;
+    border: rgba(80, 80, 80, 0.933) 1px solid;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    background:rgba(249, 250, 249, 0.933);
+    
+    text-align: center;
+    outline: none;
+}
+
+header input[type="text"]:focus{
+    width: 200px;
+    transition: 0.6s;
+    
+}
+
+
+
+header input[type="submit"]{
+    margin-right: 35px;
+    border:#47AB36 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    height: 30px;
+    width: 90px;
+    border-radius: 4px;
+    background: #47AB36 ;
+    color:#fffe
+}
+
+header input[type="submit"]:hover{
+    background:rgba(23, 158, 11, 0.933);
+    color: rgb(244, 246, 248);
+    transition: 0.6s;
+}
+
+
+
+
+/*.carousel{
+    margin-top: 90px;
+    left: 1%;
+    width: 600px; 
+    height: 400px;  
+}*/
+
+
+
+/*.cadastro{
+    background: rgba(255, 255, 255, 0.315);
+    box-shadow: 0px 0px 3px 0px;
+    margin-left: 70%;
+    text-align:  center;
+    width: 300px;
+    margin-top:150px;
+    height:410px;   
+}
+.cadastro input{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    outline:none;
+}
+
+.cadastro input:hover{
+   border: rgba(82, 158, 245, 0.479) 2px solid;
+   box-shadow: rgba(82, 158, 245, 0.479) 0px 0px 4px 0px;
+   transition: 0.10s;
+}
+.cadastro input:focus{
+    width: 200px;
+    transition: 0.10s;
+ }
+
+
+p{
+    margin-top: 15px;
+}
+.cadastro input[type="radio"]{
+    margin-top: -1px;
+    width: auto;
+}
+.cadastro input[type="submit"]{
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    max-height: 40px;
+    max-width: 100px;
+    border: 1px solid;
+    background: rgb(60, 120, 197);
+}
+
+.cadastro input[type="submit"]:hover{
+    border: 1px solid;
+    background: rgb(12, 74, 155);
+    color: white;
+    transition: 0.6s;
+}
+.cadastro input[type="email"]:invalid{
+    box-shadow: #fa1606 0px 0px 10px 0px;
+    border: #fa1606;
+}
+
+*/
+
+body{
+    background-color: #e9dfdf62;
+}
+section{
+    height: 500px;
+}
+
+.container{
+    margin-top: 120px;
+    position: relative;
+    height: 500px;
+  
+}
+
+.container .titulo h5{
+    margin-top: 150px;
+    margin-bottom: 70px;
+    text-align: center;  
+    font-size: 50px;
+}
+
+/*.container .titulo h5:hover{ 
+    color: #3dce96;
+}*/
+
+
+.container .card_descricao{
+  align-items: center;
+    display: flex;
+    
+   
+}
+.container .card_descricao .card{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.container .card_descricao .card:hover{ 
+    cursor: auto;
+    border-color: #3D9ACE;   
+}
+
+.rodape{
+    position: relative;
+    margin-top: 90px;
+    background-color: #3D9ACE;
+    height: 150px;
+    color: white;
+    align-items: center;
+    display: flex;
+  
+}
+
+.rodape .conteudo{
+    margin-left:auto;
+    margin-right: auto;
+    display: inline;
+    text-align: center;  
+}
+.rodape .conteudo .contato .titulo{
+    font-size: 20px;  
+}
+
+
+    
+
+
+
+/*/////////////////////////////////////LAYOUT ANTIGO////////////////////////////////////////*/
+/*
+#titulo h2{
+
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+   text-transform: uppercase;
+
+}
+
+#chatImg img{
+    margin-top: 135px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+#chatImg p{
+   
+  
+  text-align: center;
+  font-weight: bold;
+  margin-top: -120px;
+  font-size: 20px;
+
+}
+
+#feedPost img{
+
+    margin-top: 155px;
+    width: 300px;
+    margin-left: 950px;
+    
+}
+
+#feedPost p{
+   
+  
+    text-align: center;
+    font-weight: bold;
+    margin-top: -190px;
+    font-size: 20px;
+  
+  }
+
+#payment img{
+
+    margin-top: 155px;
+    width: 300px;
+    margin-left: 100px;
+
+}
+
+#payment p{
+   
+  
+    text-align: center;
+    font-weight: bold;
+    margin-top: -170px;
+    font-size: 20px;
+  
+  }
+  #mobile img{
+
+    margin-top: 155px;
+    width: 300px;
+    margin-left: 950px;
+
+  }
+
+  #mobile p{
+   
+  
+    text-align: center;
+    font-weight: bold;
+    margin-top: -140px;
+    font-size: 20px;
+  
+  }
+*/

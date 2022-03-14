@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /*.cabecalho{
+      padding-right: 120px;
+      background-color: #3D9ACE;
+      
+      height: 60px;
+      
+     
+      
+  }
+  
+  .cabecalho label{
+      color: white;
+      font-size: 30px;
+      padding-left: 70px;
+      line-height: 60px;
+      font-weight: bold;
+      
+  }
+  
+  .cabecalho ul{
+      line-height: 60px;
+  }
+  
+  .cabecalho ul li :hover{
+   background: none;
+  
+  }
+  .cabecalho li a:hover{
+      color: black;
+      transition: 0.4s;
+  }
+  
+  .button-collapse{
+      line-height: 60px;
+  }*/
+  
+  body{
+      background: #fffffffd;
+  
+  }
+  
+  /*Sessão*/
+  
+  
+  main{
+  
+      /*background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6) ) ,
+      url('fundo1.jpg');*/
+     
+      
+  
+      width:100%;
+      height: 1009;
+      
+  
+  }
+  
+  /*MOBILE*/
+  @media(max-width: 720px), handheld and (orientation: landscape){
+  
+   
+  
+      .areaPostagem{
+          max-width: 435px;
+          left: -50px;
+          margin-top: 200px;
+         
+      }
+  
+      .disciplinas{
+          min-height: 20px;
+          margin-top: -10px;
+  
+      }
+      
+      
+     
+      .feed{
+          margin-top:200px;
+          margin-left: -190px;
+          max-width: 435px;
+          height: 500px;
+          
+      }
+      
+      
+      .areaPostagem button{
+          
+          
+        margin-left: -78%;
+      
+        max-width: 149px;
+       
+        
+      }
+      
+      .areaPostagem label{
+          margin-top: 70px;
+      }
+      
+  
+  }
+  
+  /*Responsividade no desktop*/
+  @media(min-width: 620px) {
+  
+      #upArquivo{
+          padding-left: 40px;
+          margin-top:10px;
+          
+  
+      }
+  
+      .areaPostagem{
+          max-width: 670px;
+          
+          margin-left: 330px;
+         
+         
+      }
+  
+     
+      
+      
+     
+      .areaPostagem button{
+    
+        width: 130px;
+        height: 31px;
+        border: none;
+        position: absolute;
+        font-size: 14px;
+        text-transform: none;
+        transform: translate(77%,10%);
+        background-color: #3D9ACE;
+        color: white;
+        border-radius: 3px;
+        
+    }
+      
+     
+      
+      .areaPostagem label{
+          margin-top: 70px;
+          
+      }
+  
+     
+      
+  
+  }
+  
+  
+  
+  /*DESKTOP */
+ 
+ 
+
+  .areaPostagem label{
+      margin-top: 10px;
+      
+  }
+  
+  
+ 
+  
+  
+  .areaPostagem button:hover{
+      background-color: rgb(43, 194, 76);
+      transition: 0.2s;
+  }
+  
+  .areaPostagem label{
+      margin-top: 70px;
+  }
+  
+  .areaPostagem h5{
+      margin-top: 30px;
+      margin-left: 36px;
+  }
+  
+  
+  
+  .d-flex button{
+      background: #47AB36;
+      color: white;
+      font-size: 14px;
+      width: 80px;
+  }
+  
+  .d-flex button:hover{
+     
+      transition: none;
+  }
+  
+  .d-flex input{
+      width: 625px;
+      font-size: 15px;
+      margin-left: 60px;
+  }
+  
+  .mb-3 input{
+      width: 610px;
+      margin-top: 25px;
+      margin-left: -1px;
+  }
+
+
+
+  .mb-3 textarea{
+      margin-top: 60px;
+      width: 600px;
+      margin-left: 35px;
+  }
+  
+  
+  .navbar-nav li {
+      font-size: 15px;
+  }
+  
+  
+  
+
+
+
+  .nav-pills {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.342);
+    margin-top:0px; 
+    background-color:rgb(241, 234, 234);
+    padding:100px;
+    height: 170px; 
+    border-top: 0px solid black
+  }
+
+  .nav-pills .nav-item{
+      margin-top: 40px;
+      margin-left: 180px;
+      margin-right: -120px;
+  }
+
+
+.EditarDisciplina form{
+    margin-left: 450px;
+    margin-top:50px
+}
+
+.EditarDisciplina .atualizar{
+   
+    
+        width: 130px;
+        height: 31px;
+        border: none;
+        position: absolute;
+        font-size: 14px;
+        text-transform: none;
+        transform: translateY(50%);
+        background-color: #3D9ACE;
+        color: white;
+        border-radius: 3px;
+
+}
+
+.EditarDisciplina .atualizar:hover{
+    background-color: rgb(43, 194, 76);
+    transition: 0.2s;
+
+}
+
+.EditarDisciplina .excluir{
+   
+    
+    width: 130px;
+    height: 31px;
+    border: none;
+    position: absolute;
+    font-size: 14px;
+    text-transform: none;
+    transform: translate(170px,16px);
+    background-color: #fc1d1d;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.EditarDisciplina .excluir:hover{
+background-color: rgb(255, 8, 0);
+transition: 0.2s;
+
+}

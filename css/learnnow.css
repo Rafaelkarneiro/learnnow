@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body.dark-mode {
+	/*background: #000401;*/
+	
+}
+
+
+/*.cabecalho{
+    padding-right: 120px;
+    background-color: #3D9ACE;
+    
+    height: 60px;
+    
+   
+    
+}
+
+.cabecalho label{
+    color: white;
+    font-size: 30px;
+    padding-left: 70px;
+    line-height: 60px;
+    font-weight: bold;
+    
+}
+
+.cabecalho ul{
+    line-height: 60px;
+}
+
+.cabecalho ul li :hover{
+ background: none;
+
+}
+.cabecalho li a:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+.button-collapse{
+    line-height: 60px;
+}*/
+
+body{
+    background-color: #e9dfdf62;
+
+}
+
+/*Sessão*/
+
+
+main{
+    background-color: #e9dfdf62;
+    /*background: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6) ) ,
+    url('fundo1.jpg');*/
+   
+    
+
+    width:100%;
+    height: 100%;
+  
+
+}
+
+
+
+/*MOBILE*/
+@media(max-width: 720px), handheld and (orientation: landscape){
+
+ 
+
+    .areaPostagem{
+        max-width: 435px;
+        left: -50px;
+        margin-top: 200px;
+       
+    }
+
+    .disciplinas{
+        min-height: 20px;
+        margin-top: -10px;
+
+    }
+    
+    
+   
+    .feed{
+        margin-top:200px;
+        margin-left: -190px;
+        max-width: 435px;
+        height: 500px;
+    }
+    
+    
+    .areaPostagem button{
+        
+        
+      margin-left: -78%;
+    
+      max-width: 149px;
+     
+      
+    }
+    
+    .areaPostagem label{
+        margin-top: 70px;
+    }
+    
+
+}
+
+/*Responsividade no desktop*/
+@media(min-width: 620px) {
+
+    #upArquivo{
+        padding-left: 40px;
+        margin-top:10px;
+        
+
+    }
+
+    .areaPostagem{
+        max-width: 670px;
+        
+        margin-left: 330px;
+       
+       
+    }
+
+   
+    .feed{
+        margin-left: 120px;
+        margin-top: 60px;
+    }
+
+    .feedAluno{
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+   
+    .disciplinas{
+       max-width: 255px;
+       min-height: 890px;
+       margin-left: 14px;
+
+    }
+
+    .addDisciplina{
+        margin-left: -85px;
+    }
+
+    .perfil{
+    
+        margin-top: 20px;
+
+    }
+    
+   
+    
+    
+    .areaPostagem button{
+        
+        
+        margin-left: -10%;
+        margin-top: 18px;
+        max-width: 120px;
+     
+      
+    }
+    
+    .areaPostagem label{
+        margin-top: 70px;
+        
+    }
+
+    .chatgeral{
+        position: absolute;
+        width: 670px;
+        height: 43px;
+        left: 333px;
+        top: 90px;
+        background: #3D9ACE;
+        
+        
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    
+    .chatgeral label{
+        color: rgb(255, 255, 255);
+        line-height: 40px;
+        margin-left: 10px;
+        padding-left: 24px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 2px;
+        
+        
+    }
+    
+
+}
+
+
+
+/*DESKTOP */
+.perfil{
+    position:fixed;
+    margin-top: 90px;
+    width: 255px;
+    height: 135px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-left: 71px;
+}
+.perfil img{
+    
+width: 58px;
+height: 58px;
+left: 139px;
+margin-top: 30px;
+margin-left: 30px;
+
+
+}
+
+
+.disciplinas{
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    height: 116px;
+    left: 58px;
+    top: 280px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.addDisciplina{
+position: fixed;
+width: 256px;
+height: 40px;
+left: 157px;
+top: 240px;
+
+background-color:#3D9ACE;
+;
+
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+}
+.addDisciplina label{
+   line-height: 42px;
+   padding-left: 70px;
+   color: white;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: bold;
+}
+
+.addDisciplina span{
+    transform: translate(20%,30%);
+}
+
+
+
+.areaPostagem{
+    position: absolute;
+    width: 706px;
+    height: 300px;
+    left:3px;
+    top: 94px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: 0.1px solid rgba(0, 0, 0, 0.233);
+    border-top: none;
+    
+    
+}
+
+
+
+
+.areaPostagem label{
+    margin-top: 10px;
+    
+}
+
+
+.areaPostagem button{
+  
+    width: 92px;
+    height: 31px;
+    border: none;
+    position: absolute;
+    font-size: 14px;
+    text-transform: none;
+     transform: translate(610px,-98px);
+    background-color: #3D9ACE;
+    color: white;
+    border-radius: 3px;
+    
+}
+
+.areaPostagem button:hover{
+    background-color: rgb(43, 194, 76);
+    transition: 0.2s;
+}
+
+.areaPostagem label{
+    margin-top: 70px;
+}
+
+.feed{
+   position: absolute;
+   top: 338px;
+   left:213px;
+    width: 670px;
+    background: #FFFFFF;
+    border:0.1px solid rgba(0, 0, 0, 0.223);
+    height: 15000px;
+    
+}
+
+.feedAluno{
+    position: absolute;
+    margin-top: 132px;
+    left:213px;
+     width: 670px;
+     background: #FFFFFF;
+     border:0.1px solid rgba(0, 0, 0, 0.223);
+     height: 15000px;
+     
+ }
+
+/*.d-flex button{
+    background: #47AB36;
+    color: white;
+    font-size: 14px;
+    width: 80px;
+}
+
+.d-flex button:hover{
+    background: #47AB36;;
+    transition: none;
+}*/
+
+.d-flex input{
+    width: 667px;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.mb-3 input{
+    width: 460px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.mb-3 textarea{
+    margin-top: 60px;
+    width: 600px;
+    margin-left: 35px;
+}
+
+
+
+.navbar-nav li {
+    font-size: 15px;
+}
+
+.chat, .chat a{
+    position: fixed;
+    width: 255px;
+    height: 40px;
+    left: 71px;
+    top: 225px;
+    background: #47AB36;
+    color: white;
+    font-size: 14px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+
+.chat span{
+    transform: translate(50%,30%);
+    color: white;
+}
+
+
+.form-select{
+    width: 450px;
+    margin-left: 35px;
+    margin-top: 15px;
+    
+}
+
+.disciplinas button:hover{
+    border: none;
+    outline: none;
+  
+}
+
+.div_disciplinas{
+    overflow-y:auto;
+    height: 300px;
+}
+
